@@ -26,7 +26,7 @@ const cache = new InMemoryCache({
 })
 
 const client = new ApolloClient({
-  uri: "mongodb+srv://raymondl:raymondl1997@cluster0.bm3m04f.mongodb.net/management_db?retryWrites=true&w=majority",
+  uri: "http://localhost:10000/graphql",
   cache,
 })
 
