@@ -26,7 +26,7 @@ const cache = new InMemoryCache({
 })
 
 const client = new ApolloClient({
-  uri: "https://project-management-api-fmnm.onrender.com",
+  uri: "mongodb+srv://raymondl:raymondl1997@cluster0.bm3m04f.mongodb.net/management_db?retryWrites=true&w=majority",
   cache,
 })
 
